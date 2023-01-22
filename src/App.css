@@ -1,0 +1,50 @@
+
+.App{
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:'Courier New', Courier, monospace;
+  padding: 10px;
+}
+
+.card{
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 1px 1px 18px rgb(103, 98, 98);
+}
+
+.autor{
+  text-align: right;
+  margin: 15px, 0;
+}
+
+.quotebox_icon{
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  font-size: 50px;
+}
+
+.btn_button{
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 auto;
+  cursor: pointer;
+  transition: transform 200ms ease;
+}
+
+.btn_button:hover{
+  transform: scale(1.03);
+}
+
