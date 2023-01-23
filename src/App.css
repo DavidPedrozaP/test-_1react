@@ -1,4 +1,5 @@
 
+
 .App{
   min-height: 100vh; 
   display: flex;
@@ -25,7 +26,8 @@
 .quotebox_icon{
   position: absolute;
   bottom: 12px;
-  left: 12px;
+  left: 40%;
+  top: 0;
   font-size: 50px;
 }
 

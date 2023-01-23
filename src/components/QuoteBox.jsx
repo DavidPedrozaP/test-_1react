@@ -5,6 +5,7 @@ const QuoteBox = ({quote,newQuote, color}) => {
   return (
     <div className='card' style={{color:color}}>
       <i className='quotebox_icon bx bxs-quote-left'></i>
+      <br /><br /><br />
       <p className='quote'>{quote.quote}</p>
       <h3 className='autor'>{quote.author}</h3>
       <QuoteButton color={color} newQuote = {newQuote}/>
